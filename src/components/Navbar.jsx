@@ -9,7 +9,7 @@ export const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
+      setIsScrolled(window.scrollY > 10);
     };
     
     window.addEventListener('scroll', handleScroll);
@@ -27,10 +27,7 @@ export const Navbar = () => {
     { name: 'Gallery', path: '/gallery' },
     { name: 'Staff', path: '/staff' },
   ];
-  
-  const navbarClass = `fixed top-0 w-full z-50 transition-all duration-300 ${
-    isScrolled ? 'bg-white shadow-md py-2' : 'bg-white/80 backdrop-blur-sm py-4'
-  }`;
+  const navbarClass = `fixed top-0 w-full z-50 transition-all duration-300 bg-white/80 backdrop-blur-sm py-4`;
 
   const mobileMenuVariants = {
     closed: {
