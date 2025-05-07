@@ -100,7 +100,7 @@ const Home = () => {
       </section> */}
       <section className="relative bg-brown-700 text-white overflow-hidden h-screen flex items-center justify-center">
   <div className="absolute inset-0 bg-gradient-to-r from-brown-900 to-brown-800 opacity-95"></div>
-  <div className="absolute inset-0 bg-[url('background.jpg')] bg-cover bg-center mix-blend-overlay"></div>
+  <div className="absolute inset-0 bg-[url('/background.jpg')] bg-cover bg-center mix-blend-overlay"></div>
 
   <div className="container-custom relative px-4">
     <div className="max-w-2xl mx-auto text-center">
