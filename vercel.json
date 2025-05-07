@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      { "source": "/api/(.*)", "destination": "/api/index.js" }
+    ],
+    "redirects": [
+      { "source": "/old-route", "destination": "/new-route", "permanent": true }
+    ]
+  }
+  
